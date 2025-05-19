@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary: #F5EE84;
+    --secondary: #ffffff;
+    --background: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: var(--secondary);
+    min-width: 1200px;
+}
+
+header {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+header .name {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    color: var(--primary);
+}
+
+header .social ul {
+    list-style: none;
+}
+
+header img {
+    width: 50px;
+}
+
+main {
+    width: 85%;
+    margin: 10px auto;
+}
+
+main .profile {
+    font-size: 28px;
+    display: flex;
+    justify-content: space-around;
+}
+
+main .info {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: auto;
+}
+
+main .info h1 {
+    font-size: 72px;
+    color: var(--primary);
+}
+
+main .photo img {
+    width: 450px;
+}
+
+section h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.about1 {
+    width: 800px;
+    margin-left: auto;
+    font-size: 28px;
+}
+
+.about2 {
+    width: 800px;
+    margin-right: auto;
+    font-size: 28px;
+    margin-bottom: 100px;
+}
+
+section .about-me {
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+section .about-school {
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
